@@ -3,44 +3,44 @@
 
 CMakeFiles/RemoteCli.dir/app/CameraDevice.cpp.o
  ../app/CRSDK/CameraRemote_SDK.h
- /home/admin/sonyapp/app/CRSDK/CameraRemote_SDK.h
- /home/admin/sonyapp/app/CRSDK/CrCommandData.h
- /home/admin/sonyapp/app/CRSDK/CrDefines.h
- /home/admin/sonyapp/app/CRSDK/CrDeviceProperty.h
- /home/admin/sonyapp/app/CRSDK/CrError.h
- /home/admin/sonyapp/app/CRSDK/CrImageDataBlock.h
- /home/admin/sonyapp/app/CRSDK/CrTypes.h
- /home/admin/sonyapp/app/CRSDK/ICrCameraObjectInfo.h
- /home/admin/sonyapp/app/CRSDK/IDeviceCallback.h
- /home/admin/sonyapp/app/CameraDevice.cpp
- /home/admin/sonyapp/app/CameraDevice.h
- /home/admin/sonyapp/app/ConnectionInfo.h
- /home/admin/sonyapp/app/MessageDefine.h
- /home/admin/sonyapp/app/PropertyValueTable.h
- /home/admin/sonyapp/app/Text.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CameraRemote_SDK.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrCommandData.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrDefines.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrDeviceProperty.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrError.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrImageDataBlock.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrTypes.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/ICrCameraObjectInfo.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/IDeviceCallback.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CameraDevice.cpp
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CameraDevice.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/ConnectionInfo.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/MessageDefine.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/PropertyValueTable.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/Text.h
 CMakeFiles/RemoteCli.dir/app/ConnectionInfo.cpp.o
  ../app/CRSDK/CameraRemote_SDK.h
- /home/admin/sonyapp/app/CRSDK/CameraRemote_SDK.h
- /home/admin/sonyapp/app/CRSDK/CrCommandData.h
- /home/admin/sonyapp/app/CRSDK/CrDefines.h
- /home/admin/sonyapp/app/CRSDK/CrDeviceProperty.h
- /home/admin/sonyapp/app/CRSDK/CrError.h
- /home/admin/sonyapp/app/CRSDK/CrImageDataBlock.h
- /home/admin/sonyapp/app/CRSDK/CrTypes.h
- /home/admin/sonyapp/app/CRSDK/ICrCameraObjectInfo.h
- /home/admin/sonyapp/app/CRSDK/IDeviceCallback.h
- /home/admin/sonyapp/app/CameraDevice.h
- /home/admin/sonyapp/app/ConnectionInfo.cpp
- /home/admin/sonyapp/app/ConnectionInfo.h
- /home/admin/sonyapp/app/MessageDefine.h
- /home/admin/sonyapp/app/PropertyValueTable.h
- /home/admin/sonyapp/app/Text.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CameraRemote_SDK.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrCommandData.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrDefines.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrDeviceProperty.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrError.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrImageDataBlock.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrTypes.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/ICrCameraObjectInfo.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/IDeviceCallback.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CameraDevice.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/ConnectionInfo.cpp
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/ConnectionInfo.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/MessageDefine.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/PropertyValueTable.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/Text.h
 CMakeFiles/RemoteCli.dir/app/MessageDefine.cpp.o
- /home/admin/sonyapp/app/CRSDK/CrError.h
- /home/admin/sonyapp/app/CRSDK/CrTypes.h
- /home/admin/sonyapp/app/MessageDefine.cpp
- /home/admin/sonyapp/app/MessageDefine.h
- /home/admin/sonyapp/app/Text.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrError.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrTypes.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/MessageDefine.cpp
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/MessageDefine.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/Text.h
 CMakeFiles/RemoteCli.dir/app/PropertyValueTable.cpp.o
  ../app/CRSDK/CameraRemote_SDK.h
  ../app/CRSDK/CrCommandData.h
@@ -50,33 +50,33 @@ CMakeFiles/RemoteCli.dir/app/PropertyValueTable.cpp.o
  ../app/CRSDK/CrImageDataBlock.h
  ../app/CRSDK/CrTypes.h
  ../app/CRSDK/ICrCameraObjectInfo.h
- /home/admin/sonyapp/app/CRSDK/CameraRemote_SDK.h
- /home/admin/sonyapp/app/CRSDK/CrError.h
- /home/admin/sonyapp/app/CRSDK/CrTypes.h
- /home/admin/sonyapp/app/CRSDK/IDeviceCallback.h
- /home/admin/sonyapp/app/CameraDevice.h
- /home/admin/sonyapp/app/ConnectionInfo.h
- /home/admin/sonyapp/app/MessageDefine.h
- /home/admin/sonyapp/app/PropertyValueTable.cpp
- /home/admin/sonyapp/app/PropertyValueTable.h
- /home/admin/sonyapp/app/Text.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CameraRemote_SDK.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrError.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrTypes.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/IDeviceCallback.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CameraDevice.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/ConnectionInfo.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/MessageDefine.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/PropertyValueTable.cpp
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/PropertyValueTable.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/Text.h
 CMakeFiles/RemoteCli.dir/app/RemoteCli.cpp.o
  ../app/CRSDK/CameraRemote_SDK.h
- /home/admin/sonyapp/app/CRSDK/CameraRemote_SDK.h
- /home/admin/sonyapp/app/CRSDK/CrCommandData.h
- /home/admin/sonyapp/app/CRSDK/CrDefines.h
- /home/admin/sonyapp/app/CRSDK/CrDeviceProperty.h
- /home/admin/sonyapp/app/CRSDK/CrError.h
- /home/admin/sonyapp/app/CRSDK/CrImageDataBlock.h
- /home/admin/sonyapp/app/CRSDK/CrTypes.h
- /home/admin/sonyapp/app/CRSDK/ICrCameraObjectInfo.h
- /home/admin/sonyapp/app/CRSDK/IDeviceCallback.h
- /home/admin/sonyapp/app/CameraDevice.h
- /home/admin/sonyapp/app/ConnectionInfo.h
- /home/admin/sonyapp/app/MessageDefine.h
- /home/admin/sonyapp/app/PropertyValueTable.h
- /home/admin/sonyapp/app/RemoteCli.cpp
- /home/admin/sonyapp/app/Text.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CameraRemote_SDK.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrCommandData.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrDefines.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrDeviceProperty.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrError.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrImageDataBlock.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrTypes.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/ICrCameraObjectInfo.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/IDeviceCallback.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CameraDevice.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/ConnectionInfo.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/MessageDefine.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/PropertyValueTable.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/RemoteCli.cpp
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/Text.h
 CMakeFiles/RemoteCli.dir/app/Text.cpp.o
- /home/admin/sonyapp/app/Text.cpp
- /home/admin/sonyapp/app/Text.h
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/Text.cpp
+ /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/Text.h

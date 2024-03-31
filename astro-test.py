@@ -20,4 +20,4 @@ delta_test = eclipse.partial_begin.time.Utc() - Time.Now().Utc()
 print(delta_test)
 print(delta_test.seconds)
 
-subprocess.check_call([r"./RemoteCli.exe", 30, 35, 1, 1])
+subprocess.call(["./pi export 20240324/sonyapp/build/RemoteCli", "30", "35", "1", "1"])

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/admin/sonyapp
+CMAKE_SOURCE_DIR = "/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/admin/sonyapp/build
+CMAKE_BINARY_DIR = "/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/RemoteCli.dir/depend.make
@@ -59,81 +59,81 @@ include CMakeFiles/RemoteCli.dir/flags.make
 
 CMakeFiles/RemoteCli.dir/app/CameraDevice.cpp.o: CMakeFiles/RemoteCli.dir/flags.make
 CMakeFiles/RemoteCli.dir/app/CameraDevice.cpp.o: ../app/CameraDevice.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admin/sonyapp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RemoteCli.dir/app/CameraDevice.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RemoteCli.dir/app/CameraDevice.cpp.o -c /home/admin/sonyapp/app/CameraDevice.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RemoteCli.dir/app/CameraDevice.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RemoteCli.dir/app/CameraDevice.cpp.o -c "/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CameraDevice.cpp"
 
 CMakeFiles/RemoteCli.dir/app/CameraDevice.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RemoteCli.dir/app/CameraDevice.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admin/sonyapp/app/CameraDevice.cpp > CMakeFiles/RemoteCli.dir/app/CameraDevice.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CameraDevice.cpp" > CMakeFiles/RemoteCli.dir/app/CameraDevice.cpp.i
 
 CMakeFiles/RemoteCli.dir/app/CameraDevice.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RemoteCli.dir/app/CameraDevice.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admin/sonyapp/app/CameraDevice.cpp -o CMakeFiles/RemoteCli.dir/app/CameraDevice.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CameraDevice.cpp" -o CMakeFiles/RemoteCli.dir/app/CameraDevice.cpp.s
 
 CMakeFiles/RemoteCli.dir/app/ConnectionInfo.cpp.o: CMakeFiles/RemoteCli.dir/flags.make
 CMakeFiles/RemoteCli.dir/app/ConnectionInfo.cpp.o: ../app/ConnectionInfo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admin/sonyapp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RemoteCli.dir/app/ConnectionInfo.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RemoteCli.dir/app/ConnectionInfo.cpp.o -c /home/admin/sonyapp/app/ConnectionInfo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RemoteCli.dir/app/ConnectionInfo.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RemoteCli.dir/app/ConnectionInfo.cpp.o -c "/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/ConnectionInfo.cpp"
 
 CMakeFiles/RemoteCli.dir/app/ConnectionInfo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RemoteCli.dir/app/ConnectionInfo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admin/sonyapp/app/ConnectionInfo.cpp > CMakeFiles/RemoteCli.dir/app/ConnectionInfo.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/ConnectionInfo.cpp" > CMakeFiles/RemoteCli.dir/app/ConnectionInfo.cpp.i
 
 CMakeFiles/RemoteCli.dir/app/ConnectionInfo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RemoteCli.dir/app/ConnectionInfo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admin/sonyapp/app/ConnectionInfo.cpp -o CMakeFiles/RemoteCli.dir/app/ConnectionInfo.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/ConnectionInfo.cpp" -o CMakeFiles/RemoteCli.dir/app/ConnectionInfo.cpp.s
 
 CMakeFiles/RemoteCli.dir/app/PropertyValueTable.cpp.o: CMakeFiles/RemoteCli.dir/flags.make
 CMakeFiles/RemoteCli.dir/app/PropertyValueTable.cpp.o: ../app/PropertyValueTable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admin/sonyapp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RemoteCli.dir/app/PropertyValueTable.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RemoteCli.dir/app/PropertyValueTable.cpp.o -c /home/admin/sonyapp/app/PropertyValueTable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RemoteCli.dir/app/PropertyValueTable.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RemoteCli.dir/app/PropertyValueTable.cpp.o -c "/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/PropertyValueTable.cpp"
 
 CMakeFiles/RemoteCli.dir/app/PropertyValueTable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RemoteCli.dir/app/PropertyValueTable.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admin/sonyapp/app/PropertyValueTable.cpp > CMakeFiles/RemoteCli.dir/app/PropertyValueTable.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/PropertyValueTable.cpp" > CMakeFiles/RemoteCli.dir/app/PropertyValueTable.cpp.i
 
 CMakeFiles/RemoteCli.dir/app/PropertyValueTable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RemoteCli.dir/app/PropertyValueTable.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admin/sonyapp/app/PropertyValueTable.cpp -o CMakeFiles/RemoteCli.dir/app/PropertyValueTable.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/PropertyValueTable.cpp" -o CMakeFiles/RemoteCli.dir/app/PropertyValueTable.cpp.s
 
 CMakeFiles/RemoteCli.dir/app/RemoteCli.cpp.o: CMakeFiles/RemoteCli.dir/flags.make
 CMakeFiles/RemoteCli.dir/app/RemoteCli.cpp.o: ../app/RemoteCli.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admin/sonyapp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/RemoteCli.dir/app/RemoteCli.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RemoteCli.dir/app/RemoteCli.cpp.o -c /home/admin/sonyapp/app/RemoteCli.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/RemoteCli.dir/app/RemoteCli.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RemoteCli.dir/app/RemoteCli.cpp.o -c "/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/RemoteCli.cpp"
 
 CMakeFiles/RemoteCli.dir/app/RemoteCli.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RemoteCli.dir/app/RemoteCli.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admin/sonyapp/app/RemoteCli.cpp > CMakeFiles/RemoteCli.dir/app/RemoteCli.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/RemoteCli.cpp" > CMakeFiles/RemoteCli.dir/app/RemoteCli.cpp.i
 
 CMakeFiles/RemoteCli.dir/app/RemoteCli.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RemoteCli.dir/app/RemoteCli.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admin/sonyapp/app/RemoteCli.cpp -o CMakeFiles/RemoteCli.dir/app/RemoteCli.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/RemoteCli.cpp" -o CMakeFiles/RemoteCli.dir/app/RemoteCli.cpp.s
 
 CMakeFiles/RemoteCli.dir/app/Text.cpp.o: CMakeFiles/RemoteCli.dir/flags.make
 CMakeFiles/RemoteCli.dir/app/Text.cpp.o: ../app/Text.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admin/sonyapp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/RemoteCli.dir/app/Text.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RemoteCli.dir/app/Text.cpp.o -c /home/admin/sonyapp/app/Text.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/RemoteCli.dir/app/Text.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RemoteCli.dir/app/Text.cpp.o -c "/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/Text.cpp"
 
 CMakeFiles/RemoteCli.dir/app/Text.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RemoteCli.dir/app/Text.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admin/sonyapp/app/Text.cpp > CMakeFiles/RemoteCli.dir/app/Text.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/Text.cpp" > CMakeFiles/RemoteCli.dir/app/Text.cpp.i
 
 CMakeFiles/RemoteCli.dir/app/Text.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RemoteCli.dir/app/Text.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admin/sonyapp/app/Text.cpp -o CMakeFiles/RemoteCli.dir/app/Text.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/Text.cpp" -o CMakeFiles/RemoteCli.dir/app/Text.cpp.s
 
 CMakeFiles/RemoteCli.dir/app/MessageDefine.cpp.o: CMakeFiles/RemoteCli.dir/flags.make
 CMakeFiles/RemoteCli.dir/app/MessageDefine.cpp.o: ../app/MessageDefine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admin/sonyapp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/RemoteCli.dir/app/MessageDefine.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RemoteCli.dir/app/MessageDefine.cpp.o -c /home/admin/sonyapp/app/MessageDefine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/RemoteCli.dir/app/MessageDefine.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RemoteCli.dir/app/MessageDefine.cpp.o -c "/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/MessageDefine.cpp"
 
 CMakeFiles/RemoteCli.dir/app/MessageDefine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RemoteCli.dir/app/MessageDefine.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admin/sonyapp/app/MessageDefine.cpp > CMakeFiles/RemoteCli.dir/app/MessageDefine.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/MessageDefine.cpp" > CMakeFiles/RemoteCli.dir/app/MessageDefine.cpp.i
 
 CMakeFiles/RemoteCli.dir/app/MessageDefine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RemoteCli.dir/app/MessageDefine.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admin/sonyapp/app/MessageDefine.cpp -o CMakeFiles/RemoteCli.dir/app/MessageDefine.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/MessageDefine.cpp" -o CMakeFiles/RemoteCli.dir/app/MessageDefine.cpp.s
 
 # Object files for target RemoteCli
 RemoteCli_OBJECTS = \
@@ -156,8 +156,8 @@ RemoteCli: CMakeFiles/RemoteCli.dir/app/MessageDefine.cpp.o
 RemoteCli: CMakeFiles/RemoteCli.dir/build.make
 RemoteCli: ../external/crsdk/libCr_Core.so
 RemoteCli: CMakeFiles/RemoteCli.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/admin/sonyapp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable RemoteCli"
-	/usr/bin/cmake -E copy_directory /home/admin/sonyapp/external/crsdk /home/admin/sonyapp/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable RemoteCli"
+	/usr/bin/cmake -E copy_directory /home/admin/eclipse\ project/eclipse-program/pi\ export\ 20240324/sonyapp/external/crsdk /home/admin/eclipse\ project/eclipse-program/pi\ export\ 20240324/sonyapp/build
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RemoteCli.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -170,6 +170,6 @@ CMakeFiles/RemoteCli.dir/clean:
 .PHONY : CMakeFiles/RemoteCli.dir/clean
 
 CMakeFiles/RemoteCli.dir/depend:
-	cd /home/admin/sonyapp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/admin/sonyapp /home/admin/sonyapp /home/admin/sonyapp/build /home/admin/sonyapp/build /home/admin/sonyapp/build/CMakeFiles/RemoteCli.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp" "/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp" "/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/build" "/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/build" "/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/build/CMakeFiles/RemoteCli.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/RemoteCli.dir/depend
 

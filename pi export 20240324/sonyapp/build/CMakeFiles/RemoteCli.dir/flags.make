@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG   -fsigned-char -std=c++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/admin/sonyapp/app/CRSDK 
+CXX_INCLUDES = -I"/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK" 
 

@@ -22,101 +22,199 @@ CrTypes.h
 ICrCameraObjectInfo.h
 ../app/CRSDK/ICrCameraObjectInfo.h
 
-/home/admin/sonyapp/app/CRSDK/CameraRemote_SDK.h
+../app/CRSDK/CrCommandData.h
+CrTypes.h
+../app/CRSDK/CrTypes.h
+
+../app/CRSDK/CrDefines.h
+CrTypes.h
+../app/CRSDK/CrTypes.h
+CrError.h
+../app/CRSDK/CrError.h
+
+../app/CRSDK/CrDeviceProperty.h
+CrDefines.h
+../app/CRSDK/CrDefines.h
+
+../app/CRSDK/CrError.h
+
+../app/CRSDK/CrImageDataBlock.h
+CrDefines.h
+../app/CRSDK/CrDefines.h
+
+../app/CRSDK/CrTypes.h
+sys/types.h
+-
+sys/types.h
+-
+
+../app/CRSDK/ICrCameraObjectInfo.h
+CrTypes.h
+../app/CRSDK/CrTypes.h
+
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CameraRemote_SDK.h
 CrCommandData.h
-/home/admin/sonyapp/app/CRSDK/CrCommandData.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrCommandData.h
 CrDefines.h
-/home/admin/sonyapp/app/CRSDK/CrDefines.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrDefines.h
 CrDeviceProperty.h
-/home/admin/sonyapp/app/CRSDK/CrDeviceProperty.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrDeviceProperty.h
 CrError.h
-/home/admin/sonyapp/app/CRSDK/CrError.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrError.h
 CrImageDataBlock.h
-/home/admin/sonyapp/app/CRSDK/CrImageDataBlock.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrImageDataBlock.h
 CrTypes.h
-/home/admin/sonyapp/app/CRSDK/CrTypes.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrTypes.h
 ICrCameraObjectInfo.h
-/home/admin/sonyapp/app/CRSDK/ICrCameraObjectInfo.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/ICrCameraObjectInfo.h
 
-/home/admin/sonyapp/app/CRSDK/CrCommandData.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrCommandData.h
 CrTypes.h
-/home/admin/sonyapp/app/CRSDK/CrTypes.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrTypes.h
 
-/home/admin/sonyapp/app/CRSDK/CrDefines.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrDefines.h
 CrTypes.h
-/home/admin/sonyapp/app/CRSDK/CrTypes.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrTypes.h
 CrError.h
-/home/admin/sonyapp/app/CRSDK/CrError.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrError.h
 
-/home/admin/sonyapp/app/CRSDK/CrDeviceProperty.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrDeviceProperty.h
 CrDefines.h
-/home/admin/sonyapp/app/CRSDK/CrDefines.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrDefines.h
 
-/home/admin/sonyapp/app/CRSDK/CrError.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrError.h
 
-/home/admin/sonyapp/app/CRSDK/CrImageDataBlock.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrImageDataBlock.h
 CrDefines.h
-/home/admin/sonyapp/app/CRSDK/CrDefines.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrDefines.h
 
-/home/admin/sonyapp/app/CRSDK/CrTypes.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrTypes.h
 sys/types.h
 -
 sys/types.h
 -
 
-/home/admin/sonyapp/app/CRSDK/ICrCameraObjectInfo.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/ICrCameraObjectInfo.h
 CrTypes.h
-/home/admin/sonyapp/app/CRSDK/CrTypes.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrTypes.h
 
-/home/admin/sonyapp/app/CRSDK/IDeviceCallback.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/IDeviceCallback.h
 CrDefines.h
-/home/admin/sonyapp/app/CRSDK/CrDefines.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrDefines.h
 
-/home/admin/sonyapp/app/CameraDevice.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CameraDevice.cpp
+SDKDDKVer.h
+-
+windows.h
+-
+memory
+-
+CameraDevice.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CameraDevice.h
+chrono
+-
+experimental/filesystem
+-
+filesystem
+-
+fstream
+-
+thread
+-
+CRSDK/CrDeviceProperty.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrDeviceProperty.h
+Text.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/Text.h
+sys/stat.h
+-
+vector
+-
+dirent.h
+-
+iomanip
+-
+cstring
+-
+termios.h
+-
+unistd.h
+-
+stdio.h
+-
+conio.h
+-
+
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CameraDevice.h
 atomic
 -
 cstdint
 -
 CRSDK/CameraRemote_SDK.h
-/home/admin/sonyapp/app/CRSDK/CameraRemote_SDK.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CameraRemote_SDK.h
 CRSDK/IDeviceCallback.h
-/home/admin/sonyapp/app/CRSDK/IDeviceCallback.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/IDeviceCallback.h
 ConnectionInfo.h
-/home/admin/sonyapp/app/ConnectionInfo.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/ConnectionInfo.h
 PropertyValueTable.h
-/home/admin/sonyapp/app/PropertyValueTable.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/PropertyValueTable.h
 Text.h
-/home/admin/sonyapp/app/Text.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/Text.h
 MessageDefine.h
-/home/admin/sonyapp/app/MessageDefine.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/MessageDefine.h
 cstring
 -
 
-/home/admin/sonyapp/app/ConnectionInfo.h
-Text.h
-/home/admin/sonyapp/app/Text.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/ConnectionInfo.cpp
+ConnectionInfo.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/ConnectionInfo.h
+cstddef
+-
+cstring
+-
+CRSDK/CameraRemote_SDK.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CameraRemote_SDK.h
+CameraDevice.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CameraDevice.h
 
-/home/admin/sonyapp/app/MessageDefine.h
-CRSDK/CrTypes.h
-/home/admin/sonyapp/app/CRSDK/CrTypes.h
-CRSDK/CrError.h
-/home/admin/sonyapp/app/CRSDK/CrError.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/ConnectionInfo.h
 Text.h
-/home/admin/sonyapp/app/Text.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/Text.h
+
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/MessageDefine.cpp
+MessageDefine.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/MessageDefine.h
+
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/MessageDefine.h
+CRSDK/CrTypes.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrTypes.h
+CRSDK/CrError.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CrError.h
+Text.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/Text.h
 unordered_map
 -
 
-/home/admin/sonyapp/app/PropertyValueTable.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/PropertyValueTable.cpp
+PropertyValueTable.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/PropertyValueTable.h
+cmath
+-
+cstring
+-
+CameraDevice.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CameraDevice.h
+
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/PropertyValueTable.h
 cstdint
 -
 vector
 -
 CameraRemote_SDK.h
-/home/admin/sonyapp/app/CameraRemote_SDK.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CameraRemote_SDK.h
 Text.h
-/home/admin/sonyapp/app/Text.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/Text.h
 
-/home/admin/sonyapp/app/RemoteCli.cpp
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/RemoteCli.cpp
 cstdlib
 -
 experimental/filesystem
@@ -130,15 +228,21 @@ cstdint
 iomanip
 -
 CRSDK/CameraRemote_SDK.h
-/home/admin/sonyapp/app/CRSDK/CameraRemote_SDK.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CRSDK/CameraRemote_SDK.h
 CameraDevice.h
-/home/admin/sonyapp/app/CameraDevice.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/CameraDevice.h
 Text.h
-/home/admin/sonyapp/app/Text.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/Text.h
 unistd.h
 -
 
-/home/admin/sonyapp/app/Text.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/Text.cpp
+Text.h
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/Text.h
+iostream
+-
+
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/app/Text.h
 istream
 -
 ostream

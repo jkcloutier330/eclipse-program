@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/admin/sonyapp
+CMAKE_SOURCE_DIR = "/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/admin/sonyapp/build
+CMAKE_BINARY_DIR = "/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/build"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -74,14 +74,14 @@ clean: CMakeFiles/RemoteCli.dir/clean
 CMakeFiles/RemoteCli.dir/all:
 	$(MAKE) -f CMakeFiles/RemoteCli.dir/build.make CMakeFiles/RemoteCli.dir/depend
 	$(MAKE) -f CMakeFiles/RemoteCli.dir/build.make CMakeFiles/RemoteCli.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/admin/sonyapp/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target RemoteCli"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/build/CMakeFiles" --progress-num=1,2,3,4,5,6,7 "Built target RemoteCli"
 .PHONY : CMakeFiles/RemoteCli.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/RemoteCli.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/admin/sonyapp/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/build/CMakeFiles" 7
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/RemoteCli.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/admin/sonyapp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/build/CMakeFiles" 0
 .PHONY : CMakeFiles/RemoteCli.dir/rule
 
 # Convenience name for target.

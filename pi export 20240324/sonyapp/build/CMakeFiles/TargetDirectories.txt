@@ -1,7 +1,7 @@
-/home/admin/sonyapp/build/CMakeFiles/install/strip.dir
-/home/admin/sonyapp/build/CMakeFiles/edit_cache.dir
-/home/admin/sonyapp/build/CMakeFiles/rebuild_cache.dir
-/home/admin/sonyapp/build/CMakeFiles/RemoteCli.dir
-/home/admin/sonyapp/build/CMakeFiles/list_install_components.dir
-/home/admin/sonyapp/build/CMakeFiles/install.dir
-/home/admin/sonyapp/build/CMakeFiles/install/local.dir
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/build/CMakeFiles/install/strip.dir
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/build/CMakeFiles/edit_cache.dir
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/build/CMakeFiles/rebuild_cache.dir
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/build/CMakeFiles/RemoteCli.dir
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/build/CMakeFiles/list_install_components.dir
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/build/CMakeFiles/install.dir
+/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/build/CMakeFiles/install/local.dir

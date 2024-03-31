@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/admin/sonyapp
+CMAKE_SOURCE_DIR = "/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/admin/sonyapp/build
+CMAKE_BINARY_DIR = "/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,9 +126,9 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/admin/sonyapp/build/CMakeFiles /home/admin/sonyapp/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/build/CMakeFiles" "/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/build/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/admin/sonyapp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target

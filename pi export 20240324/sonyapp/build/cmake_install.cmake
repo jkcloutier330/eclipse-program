@@ -1,4 +1,4 @@
-# Install script for directory: /home/admin/sonyapp
+# Install script for directory: /home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,12 +44,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./RemoteCli"
          RPATH "$ORIGIN")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE EXECUTABLE FILES "/home/admin/sonyapp/build/RemoteCli")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE EXECUTABLE FILES "/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/build/RemoteCli")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./RemoteCli" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./RemoteCli")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./RemoteCli"
-         OLD_RPATH "\$ORIGIN:/home/admin/sonyapp/external/crsdk:"
+         OLD_RPATH "\$ORIGIN:/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/external/crsdk:"
          NEW_RPATH "$ORIGIN")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./RemoteCli")
@@ -58,7 +58,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "/home/admin/sonyapp/external/crsdk/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/external/crsdk/")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -69,5 +69,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/admin/sonyapp/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/admin/eclipse project/eclipse-program/pi export 20240324/sonyapp/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
