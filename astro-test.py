@@ -1,5 +1,6 @@
 from astronomy import Observer, Time, SearchLocalSolarEclipse
 import subprocess
+import json
 
 #(my current location +3deg lat to get into totality)
 # lat, long, alt.
@@ -19,5 +20,12 @@ print(eclipse.partial_end.time.Utc())
 delta_test = eclipse.partial_begin.time.Utc() - Time.Now().Utc()
 print(delta_test)
 print(delta_test.seconds)
+print(delta_test.total_seconds())
 
-subprocess.call(["./pi export 20240324/sonyapp/build/RemoteCli", "30", "35", "1", "1"])
+with open('./shutter_speeds.txt') as f:
+    raw = f.read()
+dictionary =json.loads(raw)
+
+print(dictionary)
+
+# subprocess.call(["./pi export 20240324/sonyapp/build/RemoteCli", "30", "35", "1", "1"])
