@@ -1,4 +1,4 @@
-from astronomy import Observer, Time, SearchLocalSolarEclipse
+from astronomy import Observer, Time, SearchLocalSolarEclipse, LocalSolarEclipseInfo
 import subprocess
 import json
 import time
@@ -70,6 +70,14 @@ position = Observer(44.1742, -74.9223, 43.5)
 t = Time.Now()
 
 eclipse = SearchLocalSolarEclipse(t, position)
+
+eclipse.partial_begin.time = Time('2024-04-01T22:50:00.0000Z')
+eclipse.total_begin.time = Time('2024-04-01T22:55:00.0000Z')
+eclipse.peak.time = Time('2024-04-01T22:56:00.0000Z')
+eclipse.total_end.time = Time('2024-04-01T22:57:00.0000Z')
+eclipse.partial_end.time = Time('2024-04-01T23:00:00.0000Z')
+
+print(eclipse)
 
 print(eclipse)
 print("\n")
