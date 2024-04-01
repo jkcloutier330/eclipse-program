@@ -107,47 +107,55 @@ while(True):
 
     # partial phase 1, most of disk visible
     # starting 1 minute before C1 and ending 10 minutes before C2
-    if p_begin.total_seconds() <= 60 and p_begin.total_seconds() > 600:
-        subprocess.call(["./pi export 20240324/sonyapp/build/RemoteCli", toCodeString(1/2000), toCodeString(1/100), "3", "1"])
-        time.sleep(100) # prevents taking too many pictures of the least eventful part of the event
+    if p_begin.total_seconds() <= 60 and t_begin.total_seconds() > 600:
+        # 1/2000 to 1/100
+        subprocess.call(["./brackets/build/RemoteCli", "42", "5", "650", "1"])
+        time.sleep(120) # prevents taking too many pictures of the least eventful part of the event
     
     # partial phase 1, less of disk visible
     # starting 10 minutes before C2 and ending 1 minute before C2
     if t_begin.total_seconds() <= 600 and t_begin.total_seconds() > 60:
-        subprocess.call(["./pi export 20240324/sonyapp/build/RemoteCli", toCodeString(1/1000), toCodeString(1/10), "3", "1"])
-        time.sleep(5) # prevents taking too many pictures of the second least eventful part of the event
+        # 1/1000 to 1/10
+        subprocess.call(["./brackets/build/RemoteCli", "39", "0", "1350", "1"])
+        time.sleep(30) # prevents taking too many pictures of the second least eventful part of the event
 
     # REMOVE CAMERA FILTER HERE!
 
     # start of totality, fast shutter speeds for beads and ring
     # starting 1 minute before C2 and ending 15 seconds after C2
-    if t_begin.total_seconds() <= 60 and t_begin.total_seconds() > 15:
-        subprocess.call(["./pi export 20240324/sonyapp/build/RemoteCli", toCodeString(1/4000), toCodeString(1/200), "2", "1"])
+    if t_begin.total_seconds() <= 60 and t_begin.total_seconds() > -15:
+        # 1/4000 to 1/200
+        subprocess.call(["./brackets/build/RemoteCli", "45", "6", "1400", "1"])
         # no sleep here; spamming picture hoping to get baily's beads and the diamond ring
     
     # totality, full specturm of shutter speeds for corona HDRs
     # starting 15 seconds after C2 and ending 15 seconds before C3
-    if t_begin.total_seconds() <= 15 and t_end.total_seconds() > 15:
-        subprocess.call(["./pi export 20240324/sonyapp/build/RemoteCli", toCodeString(1/1000), toCodeString(5), "2", "1"])
+    if t_begin.total_seconds() <= -15 and t_end.total_seconds() > 15:
+        # 1/1000 to 5.0
+        subprocess.call(["./brackets/build/RemoteCli", "39", "0", "1500", "1"])
+        subprocess.call(["./brackets/build/RemoteCli", "22", "0", "7700", "1"])
         time.sleep(2) # totality should last around 3 minutes, so a 2 second break will help to avoid running out of storage space
 
     # end of totality, fast shutter speeds for beads and ring
-    # starting 15 seconds after C3 and ending 1 minute after C3
-    if t_end.total_seconds() <= 15 and t_end.total_seconds() > 15:
-        subprocess.call(["./pi export 20240324/sonyapp/build/RemoteCli", toCodeString(1/4000), toCodeString(1/200), "2", "1"])
+    # starting 15 seconds before C3 and ending 1 minute after C3
+    if t_end.total_seconds() <= 15 and t_end.total_seconds() > -15:
+        # 1/4000 to 1/200
+        subprocess.call(["./brackets/build/RemoteCli", "45", "6", "1400", "1"])
         # no sleep here; spamming picture hoping to get baily's beads and the diamond ring
 
     # REPLACE CAMERA FILTER HERE!
         
     # partial phase 2, less of disk visible
     # starting 1 minute after C3 and ending 10 minutes after C3
-    if t_end.total_seconds() >= 60 and p_begin.total_seconds() < 600:
-        subprocess.call(["./pi export 20240324/sonyapp/build/RemoteCli", toCodeString(1/1000), toCodeString(1/10), "3", "1"])
+    if t_end.total_seconds() <= -60 and t_end.total_seconds() > -600:
+        # 1/1000 to 1/10
+        subprocess.call(["./brackets/build/RemoteCli", "39", "0", "1350", "1"])
         time.sleep(5) # prevents taking too many pictures of the second least eventful part of the event
         
     # partial phase 2, most of disk visible
     # starting 10 minutes after C3 and ending 1 minute after C4
-    if p_end.total_seconds() >= 600 and p_end.total_seconds() < 60:
-        subprocess.call(["./pi export 20240324/sonyapp/build/RemoteCli", toCodeString(1/2000), toCodeString(1/100), "3", "1"])
+    if p_end.total_seconds() >= 600 and p_end.total_seconds() > -60:
+        # 1/2000 to 1/100
+        subprocess.call(["./brackets/build/RemoteCli", "42", "5", "650", "1"])
         time.sleep(100) # prevents taking too many pictures of the least eventful part of the event
     
