@@ -1,0 +1,7 @@
+/home/admin/eclipse project/eclipse-program/brackets/build/CMakeFiles/install/strip.dir
+/home/admin/eclipse project/eclipse-program/brackets/build/CMakeFiles/edit_cache.dir
+/home/admin/eclipse project/eclipse-program/brackets/build/CMakeFiles/rebuild_cache.dir
+/home/admin/eclipse project/eclipse-program/brackets/build/CMakeFiles/RemoteCli.dir
+/home/admin/eclipse project/eclipse-program/brackets/build/CMakeFiles/list_install_components.dir
+/home/admin/eclipse project/eclipse-program/brackets/build/CMakeFiles/install.dir
+/home/admin/eclipse project/eclipse-program/brackets/build/CMakeFiles/install/local.dir

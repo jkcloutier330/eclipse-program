@@ -41,9 +41,9 @@ int main(int argc, char* argv[])
     CrChar* serialNum = new CrChar[SDK::USB_SERIAL_LENGTH + 1];
     int serialSiz = sizeof(CrChar) * (SDK::USB_SERIAL_LENGTH + 1);
     memset(serialNum, 0, serialSiz);
-	strncpy((char*)serialNum, "D008F05DB4C2", serialSiz);
+	strncpy((char*)serialNum, "D073205E77DE", serialSiz);
     SDK::ICrCameraObjectInfo* pCam = nullptr;
-	SDK::CrCameraDeviceModelList usbModel = SDK::CrCameraDeviceModelList::CrCameraDeviceModel_ILCE_7C;
+	SDK::CrCameraDeviceModelList usbModel = SDK::CrCameraDeviceModelList::CrCameraDeviceModel_ILCE_7M4;
     SDK::CrError err = SDK::CreateCameraObjectInfoUSBConnection(&pCam, usbModel, (unsigned char*)serialNum);
 	CameraDevicePtr camera = CameraDevicePtr(new cli::CameraDevice(1, pCam));
 	camera->connect(SDK::CrSdkControlMode_Remote, SDK::CrReconnecting_ON);

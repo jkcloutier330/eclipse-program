@@ -149,12 +149,18 @@ testing = [ 30.0,
 
 #subprocess.call(["./pi export 20240324/sonyapp/build/RemoteCli", "30", "35", "1", "1"])
 
-print(toCodeString(2))
-print(type(toCodeString(2)))
-print(["./pi export 20240324/sonyapp/build/RemoteCli", toCodeString(1/1000), toCodeString(1/10), "3", "1"])
+#print(toCodeString(2))
+#print(type(toCodeString(2)))
+#print(["./pi export 20240324/sonyapp/build/RemoteCli", toCodeString(1/1000), toCodeString(1/10), "3", "1"])
 
 # subprocess.call(["./pi export 20240324/sonyapp/build/RemoteCli", (toCodeString(1/1000)), (toCodeString(1/10)), "1", "1"])
+'''for i in range(10):
+    pre = Time.Now()
+    subprocess.call(["./brackets/build/RemoteCli", "27", "1", "3000", "1"])
+    post = Time.Now()
+    print((post.Utc() - pre.Utc()).total_seconds())
 
+'''
 p_begin = 60
 t_begin = 180
 t_end = 280
@@ -162,63 +168,33 @@ p_end = 340
 
 pre = Time.Now()
 # 1/2000 to 1/100
-subprocess.call(["./pi export 20240324/sonyapp/build/RemoteCli", "35", "48", "3", "1"])
-time.sleep(1) # prevents taking too many pictures of the least eventful part of the event
+subprocess.call(["./brackets/build/RemoteCli", "42", "5", "650", "1"])
+#time.sleep(0) # prevents taking too many pictures of the least eventful part of the event
 print("early c1")
-
 post = Time.Now()
-print((post.Utc() - pre.Utc()).seconds)
+print((post.Utc() - pre.Utc()).total_seconds())
 
 pre = Time.Now()
 # 1/1000 to 1/10
-subprocess.call(["./pi export 20240324/sonyapp/build/RemoteCli", "25", "45", "3", "1"])
-time.sleep(1) # prevents taking too many pictures of the second least eventful part of the event
+subprocess.call(["./brackets/build/RemoteCli", "39", "0", "1350", "1"])
+#time.sleep(0) # prevents taking too many pictures of the second least eventful part of the event
 print("late c1")
-
 post = Time.Now()
-print((post.Utc() - pre.Utc()).seconds)
+print((post.Utc() - pre.Utc()).total_seconds())
 
 pre = Time.Now()
 # 1/4000 to 1/200
-subprocess.call(["./pi export 20240324/sonyapp/build/RemoteCli", "38", "51", "2", "1"])
+subprocess.call(["./brackets/build/RemoteCli", "45", "6", "1400", "1"])
 # no sleep here; spamming picture hoping to get baily's beads and the diamond ring
 print("c2")
-
 post = Time.Now()
-print((post.Utc() - pre.Utc()).seconds)
+print((post.Utc() - pre.Utc()).total_seconds())
 
 pre = Time.Now()
 # 1/1000 to 5.0
-subprocess.call(["./pi export 20240324/sonyapp/build/RemoteCli", "8", "45", "2", "1"])
-time.sleep(1) # totality should last around 3 minutes, so a 2 second break will help to avoid running out of storage space
+subprocess.call(["./brackets/build/RemoteCli", "39", "0", "1500", "1"])
+subprocess.call(["./brackets/build/RemoteCli", "22", "0", "7700", "1"])
+#time.sleep(0) # totality should last around 3 minutes, so a 2 second break will help to avoid running out of storage space
 print("totality")
-
 post = Time.Now()
-print((post.Utc() - pre.Utc()).seconds)
-
-pre = Time.Now()
-# 1/4000 to 1/200
-subprocess.call(["./pi export 20240324/sonyapp/build/RemoteCli", "38", "51", "2", "1"])
-# no sleep here; spamming picture hoping to get baily's beads and the diamond ring
-print("c3")
-
-post = Time.Now()
-print((post.Utc() - pre.Utc()).seconds)
-
-pre = Time.Now()
-# 1/1000 to 1/10
-subprocess.call(["./pi export 20240324/sonyapp/build/RemoteCli", "25", "45", "3", "1"])
-time.sleep(1) # prevents taking too many pictures of the second least eventful part of the event
-print("early c4")
-
-post = Time.Now()
-print((post.Utc() - pre.Utc()).seconds)
-
-pre = Time.Now()
-# 1/2000 to 1/100
-subprocess.call(["./pi export 20240324/sonyapp/build/RemoteCli", "35", "48", "3", "1"])
-time.sleep(1) # prevents taking too many pictures of the least eventful part of the event
-print("late c4")
-
-post = Time.Now()
-print((post.Utc() - pre.Utc()).seconds)
+print((post.Utc() - pre.Utc()).total_seconds())

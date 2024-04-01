@@ -488,6 +488,21 @@ void CameraDevice::EVBracket(int option)
 		case 1:			
 			intendedMode = SDK::CrDriveMode::CrDrive_Continuous_Bracket_30Ev_5pics;
 			break;
+        case 2:			
+			intendedMode = SDK::CrDriveMode::CrDrive_Continuous_Bracket_03Ev_5pics;
+			break;
+        case 3:			
+			intendedMode = SDK::CrDriveMode::CrDrive_Continuous_Bracket_05Ev_5pics;
+			break;
+        case 4:			
+			intendedMode = SDK::CrDriveMode::CrDrive_Continuous_Bracket_07Ev_5pics;
+			break;
+        case 5:			
+			intendedMode = SDK::CrDriveMode::CrDrive_Continuous_Bracket_10Ev_5pics;
+			break;
+        case 6:			
+			intendedMode = SDK::CrDriveMode::CrDrive_Continuous_Bracket_05Ev_9pics;
+			break;
 	}
 	
 	
